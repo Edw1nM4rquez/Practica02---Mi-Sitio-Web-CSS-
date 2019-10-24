@@ -2,7 +2,7 @@
 
 1.Primero crear los directorios en donde vamos a guardas las imágenes, archivos css, archivos html.
 
-
+<img href="media/img1.jpg"/>
 2. Crear un repositorio en GitHub con el nombre “Practica02 – Mi Sitio Web (CSS)”.
 
 
