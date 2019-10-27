@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+
+//damos el tipo de letra y el tamaño de las misma 
+#tituloPri{
+font-family: Algerian, Arial;
+font-size:2em;
+}
