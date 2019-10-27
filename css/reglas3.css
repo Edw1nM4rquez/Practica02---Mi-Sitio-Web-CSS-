@@ -1,0 +1,226 @@
+/*caracteres especiales*/
+@charset "utf-8";
+
+
+/*damos el tipo de letra y el tamaño de las misma */
+#tituloPri{
+font-family:  Arial Black;
+font-size:2em;
+border-radius: 20px;
+
+}
+
+ /*centramos el titulo */
+#tituloPri{
+text-align: center;
+}
+
+/*definimos en ancho y el alto de la imagen del logo y de las demas que se agregaran al texto */
+#logo{
+width: 100%;
+height: 50%
+}
+
+
+/* creamos un margen en el cuerpo de la pagina */
+
+body {
+	width: 88.2%;
+	max-width: 1500px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: ivory;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+
+/* agregamos un color al fondo */
+html{
+background-color: #D2691E;}
+
+
+
+
+/*marco redondo en el menu */
+#menu{
+border: orange 8px inset;
+border-radius: 20px;
+border-radius: 20px;
+}
+
+ /*imagen de fondo en el cuerpo de pagina */
+body{
+  background-image: url("../img/fondo.jpg");
+}
+#menu{
+background-image: url("../img/fondo2.jpg");
+}
+
+/*eliminar los marcadores de la lista de navegacion */
+#menu > ul{
+line-west: 5px;
+list-style-type:none;
+font-size: 1.5em;
+}
+
+/*para aplicar pseudo clasesa enlacees de hipertexto */
+
+ nav > ul > li > a:link, nav > ul > li > a:visited {
+ color: #FFFFFF; 
+text-decoration: none; 
+}
+
+
+ nav > ul > li > a:hover, nav > ul > li > a:active { 
+color: #000000; 
+text-decoration: underline; 
+}
+
+
+/*color a las etiquetas h1 y h2 */
+h2,h1 { 
+color: white; 
+background-color: #E5E541;
+ } 
+
+/*le quitamos al titulo las caracteristicas de la etiqueta h1 */
+#tituloPri{ 
+color: white; 
+background-color: rgb(222, 128, 60);
+ } 
+
+form {
+    /* Sólo para centrar el formulario a la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #FDFEFE;
+    font-family: cursive;
+}
+
+
+div a:hover {
+    color: aliceblue;
+}
+
+div a {
+    text-decoration: none;
+    font-family: cursive;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+       Por defecto, las areas de texto tienen una fuente con monospace */
+    font: 1em sans-serif;
+    font-family: cursive;
+
+    /* Para darle el mismo tamaño a todos los campos de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    border-color: #000;
+}
+
+textarea {
+    /* Para alinear campos de texto multilínea con sus labels */
+    vertical-align: top;
+
+    /* Para dar suficiente espacio para escribir texto */
+    height: 5em;
+
+    /* Para permitir a los usuarios cambiar el tamaño de cualquier textarea verticalmente
+        No funciona en todos los navegadores */
+    resize: vertical;
+}
+
+.button {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    padding-left: 90px; /* mismo tamaño a todos los elementos label */
+}
+button {
+    /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+    margin-left: .5em;
+    border-radius: 2em;
+    color: #FDFEFE;
+    font-family: cursive;
+    background-color: #2E86C1  ;
+
+}
+
+/*asignamos el tamaño a la imagen*/
+#macdo{
+width: 90%;
+margin-left:10px;
+}
+
+#facebook{
+width: 90%;
+margin-left:10px;
+}
+
+#pepsi{
+width: 90%;
+margin-left:10px;
+}
+
+/*crear borde en la imagen de la publicidad*/
+#macdo{
+ border: white 8px outset;
+
+}
+
+/*creamos bordes con diferentes colores*/
+#facebook{
+  border-color: green orange green orange;
+  border-width: 10px;
+  border-style: solid;
+}
+
+#pepsi{
+ border-color: blue red blue red ;
+  border-width: 10px;
+  border-style: solid;
+}
+
+
+/*pie de pagina */
+
+footer {
+border-radius: 20px;
+
+	text-align: center;
+	font-size: 1em;
+	margin-top: 4%;
+	background-color: rgb(244, 164, 96); 
+	color:white;
+	font: normal small-caps  Quicksand, Verdana, Geneva, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}
+

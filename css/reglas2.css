@@ -84,11 +84,11 @@ text-decoration: underline;
 /*color a las etiquetas h1 y h2 */
 h2,h1 { 
 color: white; 
-background-color: rgb(222, 128, 60);
+background-color: #E5E541;
  } 
 h3 { 
 color: white;
- background-color: rgb(235, 177, 131); 
+ background-color: #BADF7B ; 
 font-size: 0.9em;
 }
 
@@ -127,6 +127,16 @@ border: orange 8px inset;
 border-radius: 20px;
 border-radius: 20px;
 }
+
+
+/*le quitamos al titulo las caracteristicas de la etiqueta h1 */
+#tituloPri{ 
+color: white; 
+background-color: rgb(222, 128, 60);
+ } 
+
+
+
 
 
 /*pie de pagina */
