@@ -1,8 +1,131 @@
 @charset "utf-8";
 
 
-//damos el tipo de letra y el tamaño de las misma 
+/*damos el tipo de letra y el tamaño de las misma */
 #tituloPri{
 font-family: Algerian, Arial;
 font-size:2em;
 }
+
+ /*centramos el titulo */
+#tituloPri{
+text-align: center;
+}
+
+/*definimos en ancho y el alto de las imagen del logo*/
+#logo{
+width: 100%;
+height: 50%
+}
+
+/* creamos un margen en el cuerpo de la pagina */
+
+body {
+	width: 88.2%;
+	max-width: 1500px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: ivory;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+
+/* agregamos un color al fondo */
+html{
+background-color: #D2691E;}
+
+/*aliniamos el texto */
+.cabecera{
+text-align: justify;
+
+}
+
+.contenido{
+text-align: justify;
+}
+
+.conten1{
+text-align: justify;
+}
+
+
+/*marco redondo en el menu */
+#menu{
+border: orange 8px inset;
+border-radius: 20px;
+border-radius: 20px
+}
+
+ /*imagen de fondo en el cuerpo de pagina */
+body{
+  background-image: url("../img/fondo.jpg");
+}
+#menu{
+background-image: url("../img/fondo2.jpg");
+}
+
+/*eliminar los marcadores de la lista de navegacion */
+#menu > ul{
+line-height: 1.2em;
+list-style-type:none;
+font-size: 1.5em;
+}
+
+/*para aplicar pseudo clasesa enlacees de hipertexto */
+
+ nav > ul > li > a:link, nav > ul > li > a:visited {
+ color: #FFFFFF; 
+text-decoration: none; 
+}
+
+
+ nav > ul > li > a:hover, nav > ul > li > a:active { 
+color: rgb(255, 64, 255); 
+text-decoration: underline; 
+}
+
+
+/*color a las etiquetas h1 y h2 */
+h1 { 
+color: white; 
+background-color: rgb(222, 128, 60);
+ } 
+h2 { 
+color: white;
+ background-color: rgb(235, 177, 131); 
+font-size: 0.9em;
+}
+
+/*separacin de bordes de las columnas */
+
+.cabecera{
+  margin-right:10px;
+}
+
+.contenido{
+  margin-right:10px;
+}
+
+
+
+
+
+
+/*pie de pagina */
+
+
+footer {
+	text-align: center;
+	font-size: 1em;
+	margin-top: 4%;
+	background-color: rgb(244, 164, 96); 
+	color:white;
+	font: normal small-caps  Quicksand, Verdana, Geneva, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}
+
