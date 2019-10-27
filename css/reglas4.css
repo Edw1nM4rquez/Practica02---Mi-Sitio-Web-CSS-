@@ -21,19 +21,6 @@ width: 100%;
 height: 50%
 }
 
-.AAI{
-width: 30%;
-float: right;
-margin-left:10px;
-}
-
-.AI{
-width: 70%;
-
-float: left;
-margin-left:10px;
-}
-
 
 /* creamos un margen en el cuerpo de la pagina */
 
@@ -55,19 +42,7 @@ body {
 html{
 background-color: #D2691E;}
 
-/*aliniamos el texto */
-.cabecera{
-text-align: justify;
 
-}
-
-.contenido{
-text-align: justify;
-}
-
-.conten1{
-text-align: justify;
-}
 
 
 /*marco redondo en el menu */
@@ -109,24 +84,56 @@ text-decoration: underline;
 /*color a las etiquetas h1 y h2 */
 h2,h1 { 
 color: white; 
-background-color: rgb(222, 128, 60);
+background-color: #68A107;
  } 
 h3 { 
 color: white;
- background-color: rgb(235, 177, 131); 
+ background-color: #6FEBAD ; 
 font-size: 0.9em;
+}
+
+/*aliniamos los parrafos*/
+/*aliniamos el texto */
+.columna1{
+text-align: justify;
+}
+
+.columna2{
+text-align: justify;
 }
 
 /*separacion de bordes de las columnas */
 
-.cabecera{
+.columna1{
   margin-right:10px;
 }
 
-.contenido{
+.columna2{
   margin-right:10px;
 }
 
+
+
+/*ancho y alto del video de Youtube */
+
+iframe{
+    max-width: 90%;
+    max-height:90%;
+}
+
+/*bordes a los videos */
+iframe{
+border: orange 8px inset;
+border-radius: 20px;
+border-radius: 20px;
+}
+
+
+/*le quitamos al titulo las caracteristicas de la etiqueta h1 */
+#tituloPri{ 
+color: white; 
+background-color: rgb(222, 128, 60);
+ } 
 
 
 
@@ -147,4 +154,3 @@ border-radius: 20px;
 	clear: both;
 	padding-bottom: 20px;
 }
-
