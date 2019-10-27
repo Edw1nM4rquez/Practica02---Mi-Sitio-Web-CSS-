@@ -1,10 +1,13 @@
+/*caracteres especiales*/
 @charset "utf-8";
 
 
 /*damos el tipo de letra y el tamaño de las misma */
 #tituloPri{
-font-family: Algerian, Arial;
+font-family:  Arial Black;
 font-size:2em;
+border-radius: 20px;
+
 }
 
  /*centramos el titulo */
@@ -12,11 +15,26 @@ font-size:2em;
 text-align: center;
 }
 
-/*definimos en ancho y el alto de las imagen del logo*/
+/*definimos en ancho y el alto de la imagen del logo y de las demas que se agregaran al texto */
 #logo{
 width: 100%;
 height: 50%
 }
+
+.AAI{
+width: 30%;
+
+float: right;
+margin-left:10px;
+}
+
+.AI{
+width: 70%;
+
+float: left;
+margin-left:10px;
+}
+
 
 /* creamos un margen en el cuerpo de la pagina */
 
@@ -57,7 +75,7 @@ text-align: justify;
 #menu{
 border: orange 8px inset;
 border-radius: 20px;
-border-radius: 20px
+border-radius: 20px;
 }
 
  /*imagen de fondo en el cuerpo de pagina */
@@ -100,7 +118,7 @@ color: white;
 font-size: 0.9em;
 }
 
-/*separacin de bordes de las columnas */
+/*separacion de bordes de las columnas */
 
 .cabecera{
   margin-right:10px;
@@ -119,6 +137,8 @@ font-size: 0.9em;
 
 
 footer {
+border-radius: 20px;
+
 	text-align: center;
 	font-size: 1em;
 	margin-top: 4%;
