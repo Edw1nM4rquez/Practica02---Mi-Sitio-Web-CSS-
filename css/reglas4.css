@@ -136,12 +136,49 @@ background-color: rgb(222, 128, 60);
  } 
 
 
+/*estilo diseño subrayado y negrita separa caracteristicas y concepto*/
+dl {
+	margin-left: 2%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	
+}
+dt {
+	display: block;
+	margin: 0;
+	text-indent: 0;
+	font-weight: bold;
+	border-bottom: 2px solid rgba(168, 168, 168,1.00);
+}
+dd {
+	display: block;
+	margin: 0 0 3% 3%;
+	text-indent: 0;
+}
 
+/*bordes en parrafos*/
+p{
+  padding: 3px 10px;
+  border: #3490EC 5px solid;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 
+/*bordes con imagenes*/
+dd {
+  border: silver 27px solid;
+  border-image-source: url("../img/img10.png");
+  border-image-slice: 27;
+  padding: 10px;
+  text-align: justify;
+}
+
+/*titulo con fondo de color*/
+dt{
+background-image: url("../img/img11.jpg");
+color: white;
+}
 
 /*pie de pagina */
-
-
 footer {
 border-radius: 20px;
 
