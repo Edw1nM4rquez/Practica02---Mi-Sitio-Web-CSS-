@@ -1,5 +1,4 @@
-/*caracteres especiales*/
-@charset "utf-8";
+
 
 
 /*damos el tipo de letra y el tamaño de las misma */
@@ -62,7 +61,6 @@ background-image: url("../img/fondo2.jpg");
 
 /*eliminar los marcadores de la lista de navegacion */
 #menu > ul{
-line-west: 5px;
 list-style-type:none;
 font-size: 1.5em;
 }
@@ -226,7 +224,6 @@ border-radius: 20px;
 	margin-top: 4%;
 	background-color: rgb(244, 164, 96); 
 	color:white;
-	font: normal small-caps  Quicksand, Verdana, Geneva, sans-serif;
 	clear: both;
 	padding-bottom: 20px;
 }
