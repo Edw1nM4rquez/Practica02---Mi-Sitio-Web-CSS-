@@ -178,14 +178,42 @@ background-image: url("../img/img11.jpg");
 color: white;
 }	
 
-/*definimos el tamaño de las imagenes */
+/*definimos el tamaño de las imagenes agregadas*/
 
 #AAI{
 width: 30%;
 float: right;
 margin-left:10px;
 }
+#AAI1{
+width: 30%;
+float: right;
+margin-left:10px;
+}
 
+#AAI2{
+width: 30%;
+float: right;
+margin-left:10px;
+}
+
+#AAI3{
+width: 30%;
+float: right;
+margin-left:10px;
+}
+
+#AAI4{
+width: 30%;
+float: right;
+margin-left:10px;
+}
+
+#AAI5{
+width: 30%;
+float: right;
+margin-left:10px;
+}
 
 /*pie de pagina */
 footer {
