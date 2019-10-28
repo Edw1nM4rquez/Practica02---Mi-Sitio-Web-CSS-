@@ -81,4 +81,13 @@ relacionas a textos, colores, tablas, secciones, artículos, etc.
 <img src="media/img24.jpg"/>
 
 <img src="media/img25.jpg"/>
+<img src="media/img26.jpg"/>
+<img src="media/img27.jpg"/>
+<img src="media/img28.jpg"/>
+<img src="media/img29.jpg"/>
+<img src="media/img30.jpg"/>
+<img src="media/img31.jpg"/>
+<img src="media/img32.jpg"/>
+<img src="media/img33.jpg"/>
+<img src="media/img34.jpg"/>
 
