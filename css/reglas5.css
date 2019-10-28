@@ -111,11 +111,37 @@ background-color: rgb(222, 128, 60);
 
 /*definimos el tamaño de las imagenes */
 
-#ima{
+#ima1{
 width: 30%;
 float: right;
 margin-left:10px;
 }
+#ima2{
+width: 30%;
+float: right;
+margin-left:10px;
+}
+#ima3{
+width: 30%;
+float: right;
+margin-left:10px;
+}
+#ima4{
+width: 30%;
+float: right;
+margin-left:10px;
+}
+#ima5{
+width: 30%;
+float: right;
+margin-left:10px;
+}
+#ima6{
+width: 30%;
+float: right;
+margin-left:10px;
+}
+
 /*para aplicar pseudo clasesa enlacees de hipertexto  para el menu 2 */
  ol > li > a:link, nav > ul > li > a:visited {
  color: #FFFFFF; 
