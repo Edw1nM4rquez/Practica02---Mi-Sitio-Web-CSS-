@@ -208,6 +208,13 @@ margin-left:10px;
   border-style: solid;
 }
 
+/*marco a la parte de publicidad*/
+.conten1{
+  border: black 20px solid;
+  border-image-source: url("../img/dinero.gif");
+  text-align: justify;
+}
+
 
 /*pie de pagina */
 
