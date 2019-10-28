@@ -6,6 +6,6 @@
 2. Crear un repositorio en GitHub con el nombre “Practica02 – Mi Sitio Web (CSS)”.
 <img src="media/img2.png"/>
 
-3. Realizar un commit y push por cada requerimiento de los puntos antes descritos.
+2.2. Realizar un commit y push por cada requerimiento de los puntos antes descritos.
 
 

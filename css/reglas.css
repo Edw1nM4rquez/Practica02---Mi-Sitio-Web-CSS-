@@ -86,6 +86,7 @@ background-image: url("../img/fondo2.jpg");
 
 /*eliminar los marcadores de la lista de navegacion */
 #menu > ul{
+margin: 5px;
 list-style-type:none;
 font-size: 1.5em;
 }
