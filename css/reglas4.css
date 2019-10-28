@@ -87,7 +87,7 @@ color: white;
 background-color: #68A107;
  } 
 h3 { 
-color: white;
+color: black;
  background-color: #6FEBAD ; 
 font-size: 0.9em;
 }
@@ -211,6 +211,13 @@ margin-left:10px;
 
 #AAI5{
 width: 30%;
+float: right;
+margin-left:10px;
+}
+
+/*imagen de ayuda*/
+#click{
+width: 50%;
 float: right;
 margin-left:10px;
 }
