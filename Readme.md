@@ -30,4 +30,27 @@ D:\Archivos de programa (x86)\XAMPP\htdocs\Practica02_Mi_Stio_Web\media
 
 * Dos_columnas
 
+<img src="media/img9.png"/>
+
+* Tres_columnas
+<img src="media/img10.png"/>
+* Reglas
+
+<img src="media/img11.png"/>
+* Reglas2
+ <img src="media/img12.png"/>
+
+* Reglas3
+<img src="media/img13.jpg"/>
+
+* Reglas4
+<img src="media/img14.jpg"/>
+
+* Reglas5
+<img src="media/img15.jpg"/>
+
+4.	Luego, se debe crear el archivo README del repositorio de GitHub.
+
+<img src="media/img15.jpg"/>
+
 
